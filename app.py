@@ -75,7 +75,7 @@ Strictly stick to answering only what is asked in {subtopic}.
     return response.text
 
 # Streamlit app
-st.title("Gemini Report Generator")
+st.title("Gemini Beacon")
 
 topic = st.text_input("Enter the Main Topic (e.g., IPL 2025 / Stock Price):")
 subtopic = st.text_input("Enter the Exact Question/Subtopic (e.g., Current Top Run Scorers / Current Stock Price Of Amazon):")
